@@ -25,5 +25,5 @@ done
 #echo $2 $argstr
 for i in `seq 1 1 $1`
 do
-	(time $2 $argstr) 2>&1 #timeの出力を標準出力に変更
+	(time -p $2 $argstr) 2>&1 #timeの出力を標準出力に変更
 done

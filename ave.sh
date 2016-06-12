@@ -6,13 +6,14 @@
 time=`cat $1 | sed -e 's/[^0-9.]//g'`
 
 sum=0
-
+count=0
 #timeに格納された値の合計を計算
 for i in $time
 do
     sum=`echo $sum + $i | bc`
     #echo $sum
+	count=$(($count + 1))
 done
 
-ave=`echo "scale=3; $sum / $i" | bc`
-echo $sum,$ave  #合計と平均
+ave=`echo "scale=3; $sum / $count" | bc`
+echo $count,$sum,$ave  #合計と平均

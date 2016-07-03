@@ -16,4 +16,5 @@ do
 done
 
 ave=`echo "scale=3; $sum / $count" | bc`
-echo $count,$sum,$ave  #合計と平均
+#echo $count,$sum,$ave  #合計と平均
+echo $ave  #平均

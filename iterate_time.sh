@@ -30,4 +30,5 @@ do
 	#(time -p $2 $argstr $path) 2>&1 |grep real
 	#echo $2 $argstr
 	(time -p $2 $argstr ) 2>&1 |grep real #timeの出力を標準出力に変更
+   # rm /home/masakazu-o/abe/trash/trash.*
 done

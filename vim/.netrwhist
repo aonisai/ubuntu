@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/masakazu-o/linux/.git'
+let g:netrw_dirhist_2='/home/masakazu-o/git/ubuntu'
+let g:netrw_dirhist_3='/home/masakazu-o/test'
+let g:netrw_dirhist_4='/home/masakazu-o/git/python/Box'
+let g:netrw_dirhist_5='/home/masakazu-o/abe/trash/Box'
+let g:netrw_dirhist_6='/home/masakazu-o/abe/trash/Dropbox'
+let g:netrw_dirhist_7='/home/masakazu-o/abe/trash/Google'

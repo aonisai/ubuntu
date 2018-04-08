@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#ip:255.255.255.255
+#user:root
+
 DATA=`cat $1`
 
 declare -A list
